@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+  /* font: normal 16px 'Roboto', sans-serif; */
+
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.container {
+  margin-left: 100px;
+  max-width: 700px;
+}
+
+/* body {
+  background-color: #f1f1f1;
+} */
+
+h1 {
+  color: #212121;
+}
+
+.main-title {
+  margin-top: 100px;
+  margin-bottom: auto;
+}
+
+em {
+  color: dimgrey;
+}
+
+li {
+  font-weight: bold;
+}
+
+.last-item {
+  font-size: 12px;
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+a:visited {
+  color: red;
+}
+
+.element {
+  font: normal 16px 'Roboto', sans-serif;
+}
+
+.flag {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  border: solid 1px #000000;
+  background: white;
+  margin-left: 20px;
+}
+
+.circle {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  background: #bc002d;
+  border-radius: 50%;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+
+.list-group {
+  list-style: none;
+}
+
+.list-group-item {
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #86898f;
+  padding: 15px;
+  max-width: 500px;
+}
+
+.list-group-2 {
+  list-style: none;
+}
+
+.list-group-item-2 {
+  font-weight: bold;
+  border: 1px solid;
+  border-color: #86898f;
+  padding: 15px;
+  max-width: 500px;
+}
+
+.list-group-item-2:hover {
+  background: blue;
+}
+
+.link-item:hover {
+  background: blue;
+  text-decoration: underline;
+}
+
+.link-item:visited {
+  color: black;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.card-img-top {
+  width: 350px;
+}
+
+.card-body {
+  border: 1px solid black;
+  height: 220px;
+  margin-right: 350px;
+  /* background: lemonchiffon; */
+}
+
+.card-title {
+  font-size: larger;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  /* border: 10px solid; */
+  border-radius: 5px;
+  background: #e45d80;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link:visited {
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
